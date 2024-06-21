@@ -57,12 +57,13 @@ button {
   button:hover {
     background-color: darkcyan;
     border: 0px;
-    padding: 21px;
+    padding: 20px;
     text-decoration: underline white;
   }
 
 .recipe-list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
