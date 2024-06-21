@@ -49,13 +49,18 @@ a {
 
 .recipe-list {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
-.recipe-list div {
+.recipe-spotlight {
     border: 2px solid darkcyan;
     border-radius: 5px;
     margin: 5px;
-    flex: auto;
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 img {
