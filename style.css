@@ -32,12 +32,8 @@ li::marker{
     color: green;
 }
 
-a:hover{
-    color:darkblue;
-}
-
-a:visited{
-    color: green;
+a {
+    color:green;
 }
 
 #nav-bar {
